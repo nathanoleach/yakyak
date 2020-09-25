@@ -39,7 +39,7 @@
       conv.event = (function() {
         var j, len1, results;
         results = [];
-        for (j = 0, len1 = (event.length || 0); j < len1; j++) {
+        for (j = 0, len1 = (event.length }} 0); j < len1; j++) {
           e = event[j];
           if (!e.event_id.match(/observed_/)) {
             results.push(e);
