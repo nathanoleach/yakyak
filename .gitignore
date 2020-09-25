@@ -21,7 +21,7 @@ bower_components
 doc
 
 Yakyak.app
-app
+#app
 dist
 scrape-emojipedia.org.py
 .idea/

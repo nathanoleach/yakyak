@@ -1,0 +1,179 @@
+{
+  "__MyLocaleLanguage__": "Polski",
+  "__maintaner__": "https://github.com/aPoCoMiLogin",
+
+  "title": "YakYak - Komunikator dla Hangouts",
+  "description": "Komunikator dla Google Hangouts",
+
+  "settings": "Preferencje",
+  "recent": "Ostatnie",
+  "details": "Szczegóły",
+
+  "connection" :{
+    "connecting": "Łączę",
+    "loading": "Pobieram kontakty",
+    "not_connected": "Brak połączenia (sprawdź połączenie)"
+  },
+
+  "input": {
+    "message": "Wiadomość",
+    "emoticons": "Pokaż emotikony",
+    "image": "Dołącz zdjęcie",
+    "typing": "pisze"
+  },
+  "conversation": {
+    "title": {
+      "one": "Rozmowa",
+      "other": "Rozmowy"
+    },
+    "numbered": "Rozmowa %d",
+    "options": "Opcje rozmowy",
+    "setting": "Ustawienia rozmowy",
+    "add": "Dodaj nową rozmowę",
+    "new": "Nowa rozmowa",
+    "name": "Nazwa rozmowy",
+    "edit": "Edycja rozmowy",
+    "multiuser": "Utwórz rozmowę grupową",
+    "delete": "Usuń rozmowę",
+    "delete_confirm": "Na pewno chcesz usunąć rozmowę?",
+    "leave": "Opuść rozmowę",
+    "leave_confirm": "Na pewno chcesz opuścić rozmowę?",
+    "search": "Szukaj uczestników",
+    "new_message": "Nowa Wiadomość",
+    "new_attachment": "New message received (image or video)",
+    "open_link": "Opening the link in the browser...",
+    "no_preview_image_click_to_open": "Image preview is disabled: click to open it in the browser"
+  },
+  "notification": {
+    "one": "Powiadomienie",
+    "other": "Powiadomienia"
+  },
+  "favorite": {
+    "title": {
+      "one": "Ulubiony",
+      "other": "Ulubione"
+    },
+    "star_it": "Zaznacz/Odznacz gwiazdką"
+  },
+  "actions": {
+    "ok": "OK",
+    "cancel": "Anuluj"
+  },
+  "call": {
+    "incoming": "Połączenie przychodzące",
+    "incoming_from": "Połączenie przychodzące od %s",
+    "accepted": "Zaakceptowane",
+    "accept": "Akceptuj",
+    "rejected": "Odrzucone",
+    "reject": "Odrzuć",
+    "missed": "Nieodebrane połączenie od %s"
+  },
+  "menu": {
+    "title": "Menu",
+    "file": {
+      "title": "YakYak",
+      "hide": "Ukryj YakYak",
+      "hide_others": "Ukryj pozostałe",
+      "show": "Pokaż wszystkie",
+      "inspector": "Otwórz panel Inspektora",
+      "logout": "Wyloguj",
+      "quit": "Zakończ"
+    },
+    "edit": {
+      "title": "Edycja",
+      "undo": "Cofnij",
+      "redo": "Przywróć",
+      "paste": "Wklej",
+      "cut": "Wytnij",
+      "copy": "Kopiuj",
+      "copy_image_link": "Kopiuj adres obrazu",
+      "copy_link": "Kopiuj adres linku",
+      "copy_image": "Kopiuj adres linku",
+      "select_all": "Zaznacz wszystko",
+      "language": "Język (Language)",
+      "dateformat": "Use system date format"
+    },
+    "view": {
+      "title": "Widok",
+      "emoji": "Zamień tekst na emoji",
+      "suggestemoji": "Suggest emoji on typing",
+      "showimagepreview": "Show image preview",
+      "hide_dock": "Ukryj ikonę w Docku",
+      "fullscreen": "Tryb Pełnoekranowy",
+      "tray": {
+        "show_tray": "Pokaż ikonę w menu statusu",
+        "show_window": "Pokaż okno",
+        "toggle_minimize": "Minimalizuj do menu statusu",
+        "start_minimize": "Uruchom zminimalizowany",
+        "close": "Zamknij do menu statusu"
+      },
+      "escape": {
+        "title": "Zachowanie klawisza Esc",
+        "hide": "Ukrywa okno",
+        "clear": "Czyści wpisany tekst",
+        "default": "domyślne gdy brak ikony w menu"
+      },
+      "conversation": {
+        "title": "Lista rozmów",
+        "timestamp": "Pokaż datę i godzinę w rozmowach",
+        "last": "Pokaż ostatnią wiadomość",
+        "previous": "Poprzednia rozmowa",
+        "next": "Następna rozmowa",
+        "select": "Wybierz rozmowę",
+        "thumbnails": {
+          "show": "Pokaż miniaturki",
+          "only": "Tylko miniaturki",
+          "animated": "Pokaż animowane miniaturki"
+        }
+      },
+      "notification": {
+        "title": "Wyskakujące powiadomienia",
+        "show": "Pokaż powiadomienia",
+        "toggle": "Przełącz powiadomienia",
+        "message": "Pokaż wiadomość w powiadomieniach",
+        "username": "Pokaż nadawcę w powiadomieniach",
+        "mute": "Wyłącz dźwięki powiadomień",
+        "avatar": "Pokaż avatar nadawcy w powiadomieniach",
+        "icon": "Pokaż ikonę YakYak w powiadomieniach",
+        "custom_sound": "Użyj niestandardowego dźwięku powiadomień"
+      },
+      "color_scheme": {
+        "title": "Schemat kolorów",
+        "default": "Domyślny",
+        "blue": "Niebieski",
+        "dark": "Ciemny",
+        "material": "Material"
+      },
+      "font": {
+        "title": "Czcionka",
+        "extra_small": "Bardzo Mała",
+        "small": "Mała",
+        "medium": "Średnia",
+        "large": "Duża",
+        "extra_large": "Bardzo Duża"
+      },
+      "zoom": {
+        "in": "Powiększ",
+        "out": "Pomniejsz",
+        "reset": "Wielkość rzeczywista"
+      }
+    },
+    "help": {
+      "title": "Pomoc",
+      "about": {
+        "title": "O YakYak",
+        "newer": "Dostępna jest nowa wersja, uaktualnij z %s do %s",
+        "license": "Licencja",
+        "authors": "Główni autorzy",
+        "contributors": "Współautorzy",
+        "startup": "Otwórz podczas uruchamiania systemu"
+      }
+    },
+    "window": {
+      "title": "Okno",
+      "minimize": "Minimalizuj okno",
+      "close": "Zamknij",
+      "front": "Umieść wszystko na wierzchu"
+    }
+  }
+}

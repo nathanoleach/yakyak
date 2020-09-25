@@ -1,0 +1,107 @@
+{
+  "name": "yakyak",
+  "version": "1.5.10",
+  "description": "Chat client for Google Hangouts",
+  "main": "main.js",
+  "scripts": {
+    "start": "gulp && electron app",
+    "dev": "electron app --debug",
+    "gulp": "gulp",
+    "electron": "electron",
+    "test": "mocha",
+    "clean": "gulp clean",
+    "deploy": "gulp deploy",
+    "deploy:linux": "gulp deploy:linux",
+    "deploy:win32": "gulp deploy:win32",
+    "deploy:darwin": "gulp deploy:darwin",
+    "deploy:linux-x64": "gulp deploy:linux-x64",
+    "deploy:linux-x64:deb": "gulp deploy:linux-x64:deb",
+    "deploy:linux-x64:flatpak": "gulp deploy:linux-x64:flatpak",
+    "deploy:linux-x64:rpm": "gulp deploy:linux-x64:rpm",
+    "deploy:linux-x64:pacman": "gulp deploy:linux-x64:pacman",
+    "deploy:linux-ia32": "gulp deploy:linux-ia32",
+    "deploy:linux-ia32:deb": "gulp deploy:linux-ia32:deb",
+    "deploy:linux-ia32:flatpak": "gulp deploy:linux-ia32:flatpak",
+    "deploy:linux-ia32:rpm": "gulp deploy:linux-ia32:rpm",
+    "deploy:linux-ia32:pacman": "gulp deploy:linux-ia32:pacman",
+    "deploy:win32-x64": "gulp deploy:win32-x64",
+    "deploy:win32-ia32": "gulp deploy:win32-ia32",
+    "deploy:darwin-x64": "gulp deploy:darwin-x64",
+    "snyk-protect": "snyk protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yakyak/yakyak"
+  },
+  "keywords": [
+    "hangouts",
+    "chat",
+    "client"
+  ],
+  "author": "Martin Algesten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yakyak/yakyak/issues"
+  },
+  "mocha": {
+    "reporter": "list",
+    "timeout": 500,
+    "spec": "test/**/*.coffee",
+    "require": [
+      "coffeescript/register"
+    ]
+  },
+  "homepage": "https://github.com/yakyak/yakyak",
+  "greenkeeper": {
+    "ignore": [
+      "trifl"
+    ]
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "autosize": "^4.0.2",
+    "bog": "^1.0.0",
+    "hangupsjs": "github:yakyak/hangupsjs#coffeescriptv2",
+    "i18n": "^0.10.0",
+    "mime-types": "^2.1.27",
+    "moment": "^2.27.0",
+    "node-notifier": "^7.0.1",
+    "notr": "^1.1.2",
+    "q": "^1.5.1",
+    "request": "^2.88.2",
+    "snyk": "^1.361.3",
+    "tmp": "^0.2.1",
+    "trifl": "0.0.10",
+    "uber-url-regex": "^5.0.9"
+  },
+  "optionalDependencies": {
+    "electron-installer-flatpak": "^0.6.0",
+    "electron-installer-debian": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coffeescript": "^2.5.1",
+    "devtron": "^1.4.0",
+    "electron": "^9.1.0",
+    "electron-packager": "^15.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-coffee": "^3.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^6.0.0",
+    "gulp-gzip": "^1.4.2",
+    "gulp-install": "^1.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-livereload": "4.0.2",
+    "gulp-print": "^5.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-spawn": "^0.4.5",
+    "gulp-zip": "^5.0.2",
+    "mocha": "^7.2.0",
+    "rimraf": "^3.0.2",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  },
+  "snyk": true
+}

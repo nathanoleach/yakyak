@@ -1,0 +1,179 @@
+{
+    "__MyLocaleLanguage__": "Čeština",
+    "__maintaner__": "http://github.com/kecinzer",
+
+    "title": "YakYak – Hangouts klient",
+    "description": "Desktop klient pro Google Hangouts",
+
+    "settings": "Nastavení",
+    "recent": "Nedávné",
+    "details": "Podrobnosti",
+
+    "connection": {
+        "connecting": "Připojování",
+        "loading": "Načítání kontaktů",
+        "not_connected": "Nepřipojeno (zkontrolujte připojení)"
+    },
+
+    "input": {
+        "message": "Zpráva",
+        "emoticons": "Zobrazit emotikony",
+        "image": "Připojit obrázek",
+        "typing": "píše"
+    },
+    "conversation": {
+        "title": {
+            "one": "Konverzace",
+            "other": "Konverzace"
+        },
+        "numbered": "Konverzace %d",
+        "options": "Možnosti konverzace",
+        "setting": "Nastavení konverzace",
+        "add": "Přidat novou konverzaci",
+        "new": "Nová konverzace",
+        "name": "Název konverzace",
+        "edit": "Upravit konverzaci",
+        "multiuser": "Vytvořit chat více lidí",
+        "delete": "Smazat konverzaci",
+        "delete_confirm": "Opravdu smazat konverzaci?",
+        "leave": "Opustit konverzaci",
+        "leave_confirm": "Opravdu opustit konverzaci?",
+        "search": "Vyhledat osoby",
+        "new_message": "Nová zpráva",
+        "new_attachment": "Obdržena nová zpráva (obraz nebo video)",
+        "open_link": "Otevírání odkazu v prohlížeči…",
+        "no_preview_image_click_to_open": "Image preview is disabled: click to open it in the browser"
+    },
+    "notification": {
+        "one": "Oznámení",
+        "other": "Oznámení"
+    },
+    "favorite": {
+        "title": {
+            "one": "Oblíbené",
+            "other": "Oblíbené"
+        },
+        "star_it": "Přidat/odebrat hvězdičku"
+    },
+    "actions": {
+      "ok": "OK",
+      "cancel": "Storno"
+    },
+    "call": {
+        "incoming": "Příchozí hovor",
+        "incoming_from": "Příchozí hovor od %s",
+        "accepted": "Přijat",
+        "accept": "Přijmout",
+        "rejected": "Odmítnut",
+        "reject": "Odmítnout",
+        "missed": "Zmeškaný hovor od %s"
+    },
+    "menu": {
+        "title": "Nabídka",
+        "file": {
+            "title": "YakYak",
+            "hide": "Skrýt YakYak",
+            "hide_others": "Skrýt ostatní",
+            "show": "Zobrazit vše",
+            "inspector": "Otevřít inspektor",
+            "logout": "Odhlásit se",
+            "quit": "Ukončit YakYak"
+        },
+        "edit": {
+            "title": "Úpravy",
+            "undo": "Odvolat akci",
+            "redo": "Opakovat akci",
+            "paste": "Vložit",
+            "cut": "Vyjmout",
+            "copy": "Kopírovat",
+            "copy_image_link": "Kopírovat odkaz obrázku",
+            "copy_link": "Kopírovat odkaz",
+            "copy_image": "Kopírovat obrázek",
+            "select_all": "Vybrat vše",
+            "language": "Jazyk (Language)",
+            "dateformat": "Použít systémový formát data"
+        },
+        "view": {
+            "title": "Zobrazit",
+            "emoji": "Převádět text na emotikony",
+            "suggestemoji": "Navrhovat emotikony při psaní",
+            "showimagepreview": "Show image preview",
+            "hide_dock": "Skrýt ikonu z doku",
+            "fullscreen": "Přepnout do/z na celou obrazovku",
+            "tray": {
+                "show_tray": "Zobrazit ikonu v oznamovací oblasti",
+                "show_window": "Zobrazit okno",
+                "toggle_minimize": "Minimalizace do oznamovací oblasti ano/ne",
+                "start_minimize": "Spustit minimalizované v oznamovací oblasti",
+                "close": "Zavřít do oznamovací oblasti"
+            },
+            "escape": {
+                "title": "Chování klávesy ESC",
+                "hide": "Skryje okno",
+                "clear": "Vyčistí vstup",
+                "default": "výchozí, když se nezobrazuje v oznamovací oblasti"
+            },
+            "conversation": {
+                "title": "Seznam konverzací",
+                "timestamp": "Zobrazit čas konverzace",
+                "last": "Zobrazit poslední zprávu konverzace",
+                "previous": "Předchozí konverzace",
+                "next": "Další konverzace",
+                "select": "Vybrat konverzaci",
+                "thumbnails": {
+                    "show": "Zobrazit náhledy",
+                    "only": "Zobrazit jen náhledy",
+                    "animated": "Zobrazit animované náhledy"
+                }
+            },
+            "notification": {
+                "title": "Vyskakující upozornění",
+                "show": "Zobrazit upozornění",
+                "toggle": "Vyp/zap. upozornění",
+                "message": "Zobrazit zprávu v upozornění",
+                "username": "Zobrazit v upozornění uživatelské jméno",
+                "mute": "Vypnout zvuk v upozornění",
+                "avatar": "Zobrazit v upozornění ikonu uživatele",
+                "icon": "Zobrazit v upozorněních YakYak ikonu",
+                "custom_sound": "Použít vlastní YakYak zvuk pro upozornění"
+            },
+            "color_scheme": {
+                "title": "Barevné schéma",
+                "default": "Výchozí",
+                "blue": "Modré",
+                "dark": "Tmavé",
+                "material": "Material"
+            },
+            "font": {
+                "title": "Velikost písma",
+                "extra_small": "Extra malé",
+                "small": "Malé",
+                "medium": "Střední",
+                "large": "Velké",
+                "extra_large": "Extra velké"
+            },
+            "zoom": {
+                "in": "Zvětšit",
+                "out": "Zmenšit",
+                "reset": "Skutečná velikost"
+            }
+        },
+        "help": {
+            "title": "Nápověda",
+            "about": {
+                "title": "O aplikaci YakYak",
+                "newer": "Je k dispozici novější verze, je možné aktualizovat z %s na %s",
+                "license": "Licence",
+                "authors": "Hlavní autoři",
+                "contributors": "Přispěvatelé",
+                "startup": "Spouštět při přihlášení do systému"
+            }
+        },
+        "window": {
+            "title": "Okno",
+            "minimize": "Minimalizovat",
+            "close": "Zavřít",
+            "front": "Přenést vše do popředí"
+        }
+    }
+}
